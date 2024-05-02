@@ -29,9 +29,10 @@ def model_atom_photon(omega=1.0, Omega=1.0, g=1.0,
 num_init = 5 # choose multiple randomly generated initial density matrix
 T = 1.0
 Nlist= int(T)*np.array([20,50,100,200])
-fig, ax = plt.subplots(1,3,figsize=(9, 3))
 
 for num_photon in [2, 5, 10]:
+
+    fig, ax = plt.subplots(1,3,figsize=(9, 3))
     # parameters to choose
     for idx in range(3):
         if idx == 0:
