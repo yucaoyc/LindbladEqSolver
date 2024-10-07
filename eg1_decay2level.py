@@ -2,6 +2,7 @@ import numpy as np
 from qutip import *
 import matplotlib.pyplot as plt
 from lindbladsolver import *
+settings.auto_tidyup=False
 
 # define the model
 def model_decay_two_level(lambda0, nu):

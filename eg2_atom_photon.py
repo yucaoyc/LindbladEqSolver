@@ -2,6 +2,7 @@ import numpy as np
 from qutip import *
 import matplotlib.pyplot as plt
 from lindbladsolver import *
+settings.auto_tidyup=False
 
 def model_atom_photon(omega=1.0, Omega=1.0, g=1.0,
         alpha=1.0, beta=1.0, gamma=1.0, nu=0.5, eta=0.5,

@@ -3,6 +3,7 @@ from qutip import *
 import matplotlib.pyplot as plt
 from lindbladsolver import *
 import time
+settings.auto_tidyup=False
 
 def model_Ising(Delta=1.0, J=1.0, gamma=0.1, n_atom=2):
     """
